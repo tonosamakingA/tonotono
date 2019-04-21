@@ -1,0 +1,22 @@
+﻿<html>
+<head><meta charset="utf-8"/></head>
+<body>
+	<form action="/confirm.php" method="post">
+		<p>名前:<input type="text" name="name"></p>
+		<p>性別:
+			<input type="radio" name="q1" value="男"> 男
+			<input type="radio" name="q1" value="女"> 女
+		</p>
+		<p>学校を知った理由:
+			<br>
+			<input type="checkbox" name="riyu[]" value="ホームページ" checked="checked">ホームページ
+			<input type="checkbox" name="riyu[]" value="知人">知人
+			<input type="checkbox" name="riyu[]" value="その他">その他
+		</p>
+		<p>
+			<button type="submit"><big>送信する</big></button>
+			<button type="reset"><small>リセット</small></button>
+		</p>
+	</form>
+</body>
+</html>
